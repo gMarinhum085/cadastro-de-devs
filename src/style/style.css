@@ -26,14 +26,20 @@ body{
 }
 
 input{
-    border: 3px solid rgb(195, 193, 193);
+    border: 3px solid #9b9999;
     border-radius: 5px;
+    background-color: #c9c6c6;
+    font-weight: bold;
 }
 
 button{
-    border: 3px solid rgb(177, 174, 174);
+    border: 3px solid #e9791a;
     border-radius: 5px;
-    margin-top: 15px
+    margin-top: 15px;
+    background-color: #ff9a3e;
+    color: azure;
+    font-weight: bold;
+    
 }
 
 label{
@@ -43,6 +49,14 @@ label{
 h1{
     color: white;
 }
+
+
+
+
+
+
+
+
 
 
 
