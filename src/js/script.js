@@ -1,6 +1,7 @@
 const add = document.getElementById('add')
 const form = document.getElementById('form')
 
+
 form.addEventListener('submit', (ev) =>{
     ev.preventDefault()
 
@@ -66,6 +67,7 @@ form.addEventListener('submit', (ev) =>{
 
         const remove = document.createElement('button')
         remove.innerText = 'Remover'
+        remove.id = 'tirar'
 
         evento.append(label_Tecno,br,input_tecno,br_1,tempo_exp,br_2,input1,label1,input2,label2,input3,label3,br_3,remove)
         div.appendChild(evento)
