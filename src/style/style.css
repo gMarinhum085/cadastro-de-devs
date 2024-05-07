@@ -16,7 +16,7 @@ body{
 
 .cadastrar{
     color: aliceblue;
-    border: 3px  double  rgb(7, 69, 132);
+    border: 3px  solid  rgb(65, 134, 203);
     background-color:  rgb(65, 134, 203);
     border-radius: 10px;
     margin-left: 20px;
@@ -28,13 +28,15 @@ body{
 .cadastrar:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(65, 134, 203);
+    border: 3px  solid aliceblue;
 }
 
 input{
-    border: 3px solid #9b9999;
+    border: 2px solid #9b9999;
     border-radius: 5px;
     background-color: #c9c6c6;
     font-weight: bold;
+    transition: 0.1s;
 }
 
 
@@ -44,13 +46,13 @@ input:hover{
 }
 
 button{
-    border: 3px solid #e9791a;
+    border: 3px solid #e29504;
     border-radius: 5px;
     margin-top: 15px;
-    background-color: #ff9a3e;
-    color: azure;
+    background-color: #e29504;
+    color: aliceblue;
     font-weight: bold;
-    
+    transition: .15s;
 }
 
 label{
@@ -61,6 +63,16 @@ h1{
     color: white;
 }
 
+#tirar{
+    border: 3px solid rgb(160, 33, 33);
+    border-radius: 20px;
+    background-color: rgb(160, 33, 33);
+}
+
+
+#add{
+    margin-top: 30px;
+}
 
 
 
