@@ -25,11 +25,22 @@ body{
    
 }
 
+.cadastrar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 134, 203);
+}
+
 input{
     border: 3px solid #9b9999;
     border-radius: 5px;
     background-color: #c9c6c6;
     font-weight: bold;
+}
+
+
+input:hover{
+    background-color: #ffffff;
+
 }
 
 button{
@@ -49,6 +60,7 @@ label{
 h1{
     color: white;
 }
+
 
 
 
